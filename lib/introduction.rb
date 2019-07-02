@@ -9,13 +9,13 @@ end
 # def introduction_with_language(name, language)
 #  if language == nil
 #    language = "Ruby"
-#  end  
+#  end
 #  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 #end
-    
+
 def introduction_with_language(name, language)
   if language != nil
     puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  end 
+  end
   puts "Hi, my name is #{name} and I am learning to program in Ruby."
 end
