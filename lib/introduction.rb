@@ -10,9 +10,4 @@ def introduction_with_language_optional(name, language = "Ruby" )
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-#def introduction_with_language_optional(name, language)
-#  if language != nil
-#    puts "Hi, my name is #{name} and I am learning to program in #{language}."
-#  end
-#  puts "Hi, my name is #{name} and I am learning to program in Ruby."
-#end
+# the last method uses a default value if the last parameter isn't given an argument
